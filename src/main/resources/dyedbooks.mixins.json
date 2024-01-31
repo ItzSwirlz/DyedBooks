@@ -1,11 +1,13 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "com.example.example_mod.mixin",
+	"package": "com.github.itzswirlz.dyedbooks.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [],
 	"client": [
-		"TitleScreenMixin"
+		"BookItemMixin",
+		"WritableBookItemMixin",
+		"WrittenBookItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
