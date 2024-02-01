@@ -6,7 +6,7 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Dyed Books",
-			"description": "todo",
+			"description": "Adds the ability to dye books like leather armor.",
 			"contributors": {
 				"Your name here": "ItzSwirlz"
 			},
