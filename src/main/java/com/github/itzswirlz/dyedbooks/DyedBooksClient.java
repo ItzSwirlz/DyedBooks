@@ -12,13 +12,7 @@ public class DyedBooksClient implements ClientModInitializer {
     @Override
 	public void onInitializeClient(ModContainer mod) {
          ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
-			return tintIndex != 0 ? -1 : ((DyeableItem)stack.getItem()).getColor(stack);
-		 }, Items.BOOK);
-		 ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
-			return tintIndex != 0 ? -1 : ((DyeableItem)stack.getItem()).getColor(stack);
-		 }, Items.WRITABLE_BOOK);
-		 ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
-			return tintIndex != 0 ? -1 : ((DyeableItem)stack.getItem()).getColor(stack);
-		 }, Items.WRITTEN_BOOK);
+			return tintIndex > 0 ? -1 : ((DyeableItem)stack.getItem()).getColor(stack);
+		 }, Items.BOOK, Items.WRITABLE_BOOK, Items.WRITTEN_BOOK);
 	}
 }

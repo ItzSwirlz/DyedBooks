@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/writable_book_overlay",
+        "layer1": "item/writable_book"
+    }
+}
