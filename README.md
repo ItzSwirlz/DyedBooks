@@ -8,7 +8,15 @@ The mod does not 'add' new items - it simply adjusts the book item itself. Becau
 ## How does this work?
 This is actually not too complicated - in fact, it was very fun to learn. I'll create a wiki page on the GitHub repo to explain how this works. But in short, the mod gives books the same ability to hold special data to contain the 'dyed color' that the game uses to tint the item texture.
 
-## Future Features
+## Notes/Future Features/Current Bugs:
+- **Current minor bug - default book tint**
+    - When I grayscaled the book texture, I did it with imagemagick's `colorspace gray` and that is not the same as what Mojang did. You can see that the "no-tint" texture is quite darker than the original vanilla texture. I don't see this as a critical issue because it allows the actual book dying to work. The problem is worse with the book and quill at the moment.
+- **Possible bug - signing dyed books**
+    - If you dye a book and quill, then write in it, and sign it, I don't think the game will carry over the color and NBT data. I'm not sure yet.
+
+- **Note**: Written Book Textures
+    - The "Written Book" texture in the game's resource pack is actually **not** the same as a regular book or a book and quill. It's slightly darker. It's just hard to notice because of the glint. For now, the model is the same as the book so its a bit more consistent if you have another way to remove the glint, so you don't have to play eeny-meeny-miny-moe with it after you spent time finding what color tint you want for your book.
+
 - The GUI: Do we want to change the 'red' color around it according to the dye?
     - This is an interesting question! Because when you make a book cover, or technically 'dye' a book, you don't want to ruin the pages. If you were making a cover then it would go on *top* of the base book, which is kind of what this mod is doing in the background. So... I'm open to discussion.
 - Enchanted Books
