@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "com.github.itzswirlz.dyedbooks.mixin",
+	"package": "net.itzswirlz.dyedbooks.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [],
 	"client": [

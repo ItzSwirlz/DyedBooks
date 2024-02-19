@@ -8,7 +8,7 @@
 			"name": "Dyed Books",
 			"description": "Adds the ability to dye books like leather armor.",
 			"contributors": {
-				"Your name here": "ItzSwirlz"
+				"ItzSwirlz": "Creator"
 			},
 			"contact": {
 				"homepage": "https://github.com/ItzSwirlz/dyedbooks",
@@ -19,8 +19,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.github.itzswirlz.dyedbooks.DyedBooks",
-			"client_init": "com.github.itzswirlz.dyedbooks.DyedBooksClient"
+			"init": "net.itzswirlz.dyedbooks.DyedBooks",
+			"client_init": "net.itzswirlz.dyedbooks.DyedBooksClient"
 		},
 		"depends": [
 			{

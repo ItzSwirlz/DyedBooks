@@ -1,4 +1,4 @@
-package com.github.itzswirlz.dyedbooks;
+package net.itzswirlz.dyedbooks;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;

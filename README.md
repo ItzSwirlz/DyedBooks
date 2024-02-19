@@ -10,12 +10,12 @@ This is actually not too complicated - in fact, it was very fun to learn. I'll c
 
 ## Notes/Future Features/Current Bugs:
 - **Current minor bug - default book tint**
-    - When I grayscaled the book texture, I did it with imagemagick's `colorspace gray` and that is not the same as what Mojang did. You can see that the "no-tint" texture is quite darker than the original vanilla texture. I don't see this as a critical issue because it allows the actual book dying to work. The problem is worse with the book and quill at the moment.
+    - When I grayscaled the book texture, I did it with imagemagick's `colorspace gray` and that is not the same as what Mojang did. You can see that the "no-tint" texture is quite darker than the original vanilla texture. I don't see this as a critical issue because it allows the actual book dying to work.
 - **Possible bug - signing dyed books**
     - If you dye a book and quill, then write in it, and sign it, I don't think the game will carry over the color and NBT data. I'm not sure yet.
 
 - **Note**: Written Book Textures
-    - The "Written Book" texture in the game's resource pack is actually **not** the same as a regular book or a book and quill. It's slightly darker. It's just hard to notice because of the glint. For now, the model is the same as the book so its a bit more consistent if you have another way to remove the glint, so you don't have to play eeny-meeny-miny-moe with it after you spent time finding what color tint you want for your book.
+    - The "Written Book" texture in the game's resource pack is actually **not** the same as a regular book or a book and quill. It's slightly darker. It's just hard to notice because of the glint. For now, the model is the same as the book so its a bit more consistent if you have another way to remove the glint, so you don't have to play eeny-meeny-miny-moe with it after you spent time finding what color tint you want for your book. Same goes for the book and quill.
 
 - The GUI: Do we want to change the 'red' color around it according to the dye?
     - This is an interesting question! Because when you make a book cover, or technically 'dye' a book, you don't want to ruin the pages. If you were making a cover then it would go on *top* of the base book, which is kind of what this mod is doing in the background. So... I'm open to discussion.
@@ -25,4 +25,4 @@ This is actually not too complicated - in fact, it was very fun to learn. I'll c
     - Other than *maybe* Patchouli, I haven't found a consistently up-to-date with vanilla Minecraft, a mod that contains a replica of the 'book' item. If I do, compatibility for this would be fun and easy, so if you find something, let me know (or make a pull request, contributions are welcome!)
 
 ## License
-The directory structure is the same as the Quilt Template Mod, which is CC0. This mod will be licensed under the GNU GPL v3.0+ once I get there.
+The directory structure is the same as the Quilt Template Mod, which is CC0. This mod is licensed under the GNU General Public License v3.0 or later.

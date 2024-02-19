@@ -1,4 +1,4 @@
-package com.github.itzswirlz.dyedbooks;
+package net.itzswirlz.dyedbooks;
 
 import com.google.common.collect.Lists;
 import java.util.List;
