@@ -19,8 +19,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "net.itzswirlz.dyedbooks.DyedBooks",
-			"client_init": "net.itzswirlz.dyedbooks.DyedBooksClient"
+			"init": "com.github.itzswirlz.dyedbooks.DyedBooks",
+			"client_init": "com.github.itzswirlz.dyedbooks.DyedBooksClient"
 		},
 		"depends": [
 			{

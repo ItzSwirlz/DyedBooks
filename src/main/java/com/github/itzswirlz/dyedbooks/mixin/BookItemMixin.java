@@ -1,4 +1,4 @@
-package net.itzswirlz.dyedbooks.mixin;
+package com.github.itzswirlz.dyedbooks.mixin;
 
 import net.minecraft.item.BookItem;
 import net.minecraft.item.DyeableItem;
