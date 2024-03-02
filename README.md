@@ -6,7 +6,7 @@ The title and description says it all! You can dye books by combining a book and
 The mod does not 'add' new items - it simply adjusts the book item itself. Because of this, if the world is loaded without the mod present, these books *should* not disappear since the book still exists in the game. (I have yet to test this). If you have a modded world that you continously upgrade along with new of Minecraft, this is a great addition. You won't lose your books on an upgrade if you forget to load this mod.
 
 ## How does this work?
-This is actually not too complicated - in fact, it was very fun to learn. I'll create a wiki page on the GitHub repo to explain how this works. But in short, the mod gives books the same ability to hold special data to contain the 'dyed color' that the game uses to tint the item texture.
+This is actually not too complicated - we make the book item implement an interface in the code called `DyeableItem`, which is exactly what it sounds like. This interface is what leather armor items has, that makes it possible for the item to have NBT data to make it 'dyed' and store color values. Then, just create a recipe to make the books dyeable, and with a registration to the client's item color handler, that's the mod. This is basically how dying leather armor works - it's just applied to books.
 
 ## Notes/Future Features/Current Bugs:
 - **Possible inaccuracies**
