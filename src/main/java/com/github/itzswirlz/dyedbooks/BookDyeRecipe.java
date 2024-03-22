@@ -11,13 +11,12 @@ import net.minecraft.recipe.CraftingCategory;
 import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.recipe.SpecialCraftingRecipe;
 import net.minecraft.registry.DynamicRegistryManager;
-import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 
 // Stolen from ArmorDyeRecipe
 public class BookDyeRecipe extends SpecialCraftingRecipe {
-    public BookDyeRecipe(Identifier identifier, CraftingCategory craftingCategory) {
-      super(identifier, craftingCategory);
+    public BookDyeRecipe(CraftingCategory craftingCategory) {
+      super(craftingCategory);
    }
 
    public boolean matches(RecipeInputInventory recipeInputInventory, World world) {
